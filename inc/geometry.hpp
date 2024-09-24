@@ -38,7 +38,7 @@ circle welzl(
 {
     if (P.empty() || R.size() == 3)
     {
-        if (P.empty() && R.empty())
+        if (R.empty())
             return {{0.f, 0.f}, 0.f};
 
         else if (R.size() == 1)
